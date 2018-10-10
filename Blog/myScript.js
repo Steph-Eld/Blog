@@ -1,5 +1,5 @@
-$(document).ready(() => {
-  $('.show-More').on('click', () => {
+$(document).ready(function() {
+  $('.show-More').on('click', function() {
     $('.hidden').show().css('visibility','visible');
   });
 
