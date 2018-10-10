@@ -13,7 +13,7 @@
 		<div class="topPage">
 			<div class="topPage-innerWrp">
 				<div class="topPage-inner">
-					<div class="topPage-logoWrp"> <img class="logo" src="Photos/logo.jpg"></div>
+					<div class="topPage-logoWrp"> <img class="logo" src="Photos/logo.jpg" alt="Photo Meow Meow"></div>
 					<h1 class="topPage-title"> Le blog de Meow Meow !</h1>
 				</div>
 			</div>
@@ -23,23 +23,28 @@
 		<div class="navPage">
 			<div class="navPage-innerWrp">
 				<div class="navPage-articles">
-					<img class="Article-photos" src="Photos/article-un.jpg">
+					<img class="Article-photos" src="Photos/article-un.jpg" alt="Photo de chat">
 					<div class="Article-content">
 						<h2 class=Article-title>Hier j'ai entendu un drôle de Meow !<h2>
-						<img class="likeButton" src="Icons/Like/iconLike.png">
+						<span class ="likeCounter">0</span><img class="likeButton" src="Icons/Like/iconLike.png" alt="Bouton like">
 						<p class="Article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>
 						<div class="Article-meta">
 								<p class="Date">Mercredi 3 Octobre 2018</p>
 								<div class=Author>
-										<div class="Author-picture"> <img src="Photos/logo.jpg"></div>
+										<div class="Author-picture"> <img src="Photos/logo.jpg" alt="Photo auteur"></div>
 										<p class="Author-name">Meow Meow</p>
 								</div>				
 						</div>	
 					</div>
 				</div>
 				<ul class="social">
-					<li class="comment"><img src="Icons/Comment/iconComment.png"><p class="social-Text">Comment</p></li>
-					<li class="share"><img src="Icons/Share/iconShare.png"><p class="social-Text">Share</p>
+					<li class="comment"><img src="Icons/Comment/iconComment.png" alt="Bouton comment"><p class="social-Text">Comment</p>
+					<div class="comment-Block">	
+						<textarea placeholder="Ecrivez votre commentaire ici..." class="show-Comment"></textarea>
+						<input type="button" value="Envoyer mon commentaire" />
+					</div>	
+					</li>
+					<li class="share"><img src="Icons/Share/iconShare.png" alt="Bouton share"><p class="social-Text">Share</p>
 						<ul class="share-Icons">
 							<li><a class="facebook" href="" target="blank"><i class="fa fa-facebook"></i></a></li>
   							<li><a class="twitter" href="" target="blank"><i class="fa fa-twitter"></i></a></li>
@@ -48,26 +53,31 @@
   							<li><a class="pinterest" href="" target="blank"><i class="fa fa-pinterest-p"></i></a></li>
   						</ul>	
 					</li>
-					<li class="like"><img src="Icons/Like/iconLike.png"><p class="social-Text">Like</p></li>
+					<li class="like"><a href="" target="blank"><img src="Icons/Like/iconLike.png" alt="Bouton like"><p class="social-Text">Like</p></a></li>
 				</ul>				
 				<div class="navPage-articles">
-					<img class="Article-photos" src="Photos/article-deux.jpg">
+					<img class="Article-photos" src="Photos/article-deux.jpg" alt="Photo de chat">
 					<div class="Article-content">
 						<h2 class=Article-title>J'aime l'Automne !<h2>
-						<img class="likeButton" src="Icons/Like/iconLike.png">	
+						<span class ="likeCounter">0</span><img class="likeButton" src="Icons/Like/iconLike.png" alt="Bouton like">	
 						<p class="Article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
 						<div class="Article-meta">
 								<p class="Date">Mercredi 3 Octobre 2018</p>
 								<div class=Author>
-										<div class="Author-picture"> <img src="Photos/logo.jpg"></div>
+										<div class="Author-picture"> <img src="Photos/logo.jpg" alt="Photo auteur"></div>
 										<p class="Author-name">Meow Meow</p>
 								</div>				
 						</div>	
 					</div>
 				</div>
 				<ul class="social">
-					<li class="comment"><img src="Icons/Comment/iconComment.png"><p class="social-Text">Comment</p></li>
-					<li class="share"><img src="Icons/Share/iconShare.png"><p class="social-Text">Share</p>
+					<li class="comment"><img src="Icons/Comment/iconComment.png" alt="Bouton comment"><p class="social-Text">Comment</p>
+						<div class="comment-Block">	
+						<textarea placeholder="Ecrivez votre commentaire ici..." class="show-Comment"></textarea>
+						<input type="button" value="Envoyer mon commentaire" />
+					</div>
+					</li>
+					<li class="share"><img src="Icons/Share/iconShare.png" alt="Bouton share"><p class="social-Text">Share</p>
 						<ul class="share-Icons">
 							<li><a class="facebook" href="" target="blank"><i class="fa fa-facebook"></i></a></li>
   							<li><a class="twitter" href="" target="blank"><i class="fa fa-twitter"></i></a></li>
@@ -76,7 +86,73 @@
   							<li><a class="pinterest" href="" target="blank"><i class="fa fa-pinterest-p"></i></a></li>
   						</ul>
 					</li>
-					<li class="like"><img src="Icons/Like/iconLike.png"><p class="social-Text">Like</p></li>
+					<li class="like"><a href="" target="blank"><img src="Icons/Like/iconLike.png" alt="Bouton like"><p class="social-Text">Like</p></a></li>
+				</ul>
+				<div class="navPage-articles hidden">
+					<img class="Article-photos" src="Photos/article-trois.jpg" alt="Photo de chat">
+					<div class="Article-content">
+						<h2 class=Article-title>Parlons de la sieste !<h2>
+						<span class ="likeCounter">0</span><img class="likeButton" src="Icons/Like/iconLike.png" alt="Bouton like">
+						<p class="Article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+						<div class="Article-meta">
+								<p class="Date">Mercredi 3 Octobre 2018</p>
+								<div class=Author>
+										<div class="Author-picture"> <img src="Photos/logo.jpg" alt="Photo auteur"></div>
+										<p class="Author-name">Meow Meow</p>
+								</div>				
+						</div>	
+					</div>
+				</div>
+				<ul class="social hidden">
+					<li class="comment"><img src="Icons/Comment/iconComment.png" alt="Bouton comment"><p class="social-Text">Comment</p>
+						<div class="comment-Block">	
+						<textarea placeholder="Ecrivez votre commentaire ici..." class="show-Comment"></textarea>
+						<input type="button" value="Envoyer mon commentaire" />
+					</div>
+					</li>
+					<li class="share"><img src="Icons/Share/iconShare.png" alt="Bouton share"><p class="social-Text">Share</p>
+						<ul class="share-Icons">
+							<li><a class="facebook" href="" target="blank"><i class="fa fa-facebook"></i></a></li>
+  							<li><a class="twitter" href="" target="blank"><i class="fa fa-twitter"></i></a></li>
+  							<li><a class="googleplus" href="" target="blank"><i class="fa fa-google-plus"></i></a></li>
+  							<li><a class="linkedin" href="" target="blank"><i class="fa fa-linkedin"></i></a></li>
+  							<li><a class="pinterest" href="" target="blank"><i class="fa fa-pinterest-p"></i></a></li>
+  						</ul>	
+					</li>
+					<li class="like"><a href="" target="blank"><img src="Icons/Like/iconLike.png" alt="Bouton like"><p class="social-Text">Like</p></a></li>
+				</ul>
+				<div class="navPage-articles hidden">
+					<img class="Article-photos" src="Photos/article-quatre.jpg" alt="Photo de chat">
+					<div class="Article-content">
+						<h2 class=Article-title>Difficile la vie d'un chat...<h2>
+						<span class ="likeCounter">0</span><img class="likeButton" src="Icons/Like/iconLike.png" alt="Bouton like">
+						<p class="Article-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<div class="Article-meta">
+								<p class="Date">Mercredi 3 Octobre 2018</p>
+								<div class=Author>
+										<div class="Author-picture"> <img src="Photos/logo.jpg" alt="Photo auteur"></div>
+										<p class="Author-name">Meow Meow</p>
+								</div>				
+						</div>	
+					</div>
+				</div>
+				<ul class="social hidden">
+					<li class="comment"><img src="Icons/Comment/iconComment.png" alt="Bouton comment"><p class="social-Text">Comment</p>
+						<div class="comment-Block">	
+						<textarea placeholder="Ecrivez votre commentaire ici..." class="show-Comment"></textarea>
+						<input type="button" value="Envoyer mon commentaire" />
+					</div>
+					</li>
+					<li class="share"><img src="Icons/Share/iconShare.png" alt="Bouton share"><p class="social-Text">Share</p>
+						<ul class="share-Icons">
+							<li><a class="facebook" href="" target="blank"><i class="fa fa-facebook"></i></a></li>
+  							<li><a class="twitter" href="" target="blank"><i class="fa fa-twitter"></i></a></li>
+  							<li><a class="googleplus" href="" target="blank"><i class="fa fa-google-plus"></i></a></li>
+  							<li><a class="linkedin" href="" target="blank"><i class="fa fa-linkedin"></i></a></li>
+  							<li><a class="pinterest" href="" target="blank"><i class="fa fa-pinterest-p"></i></a></li>
+  						</ul>	
+					</li>
+					<li class="like"><a href="" target="blank"><img src="Icons/Like/iconLike.png" alt="Bouton like"><p class="social-Text">Like</p></a></li>
 				</ul>
 				<button class="show-More"><p>Voir Plus</p></button>	
 			</div>
@@ -91,20 +167,22 @@
 						<div class="bottomPage-Text">stephen g</div>  
 					</div>
 					<div class="credits">
-						<div class="bottomPage-Title">Cat</div>
+						<div class="bottomPage-Title">Chat</div>
 						<div class="bottomPage-Text">meow meow</div>  
 					</div>
 					<div class="credits">
-						<div class="bottomPage-Title">Author</div>
+						<div class="bottomPage-Title">Auteur</div>
 						<div class="bottomPage-Text">stephen g</div>  
 					</div>
 					<div class="credits">
-						<div class="bottomPage-Title">Pictures</div>
+						<div class="bottomPage-Title">Photos</div>
 						<div class="bottomPage-Text">stephen g</div>  
 					</div>
 				</div>
 			</div>
 		</div>
-	</footer>				
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="myScript.js"></script>				
 </body>
 </html>

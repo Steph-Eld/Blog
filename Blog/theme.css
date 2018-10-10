@@ -233,6 +233,17 @@ body
 .likeButton:hover
 {
 	transform: rotate(360deg) scale(1.5);
+	cursor: pointer;
+}
+
+.likeCounter
+{
+	position: absolute;
+    display: inline-block;
+    left: 90%;
+    margin-top: -60px;
+    color: grey;
+    font-size: 23px;
 }
 
 .social
@@ -247,12 +258,18 @@ body
 {
 	margin: 0 auto;
 	width: 25%;
-    display: inline-block;
+    display: inline-table;
 }
 
-.social li:hover
+.social-Text:hover
+{
+	cursor: pointer;
+}
+
+.comment:hover img, .share:hover img, .like:hover img 
 {
 	opacity: 0.5;
+	cursor: pointer;
 }
 
 .share-Icons li 
@@ -295,4 +312,32 @@ li:hover li
     text-transform: uppercase;
     display: block;
     margin-bottom: 5vw;
+}
+
+.show-More:hover
+{
+	opacity: 0.7;
+	cursor: pointer;
+}
+
+.hidden
+{
+	display: none;
+	visibility: hidden;
+}
+
+.comment-Block
+{
+	display: none;
+}
+
+.show-Comment
+{
+    margin: 0px;
+    height: 180px;
+    width: 300px;
+    resize: none;
+    overflow: auto;
+    border: 1px solid rgb(74, 144, 226);
+    font-family: 'Open Sans', serif, sans-serif;
 }
